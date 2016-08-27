@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travelling Salesman</title>
+	<meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href="ga-style.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp9BP6P9_GnKaj_x6lEWw9edNlBMrdbtY&callback=initMap"
+    defer></script>
+  <script type="text/javascript" src="ga.js"></script>
+</head>
+<body>
+  <div id="controls">
+    <table align="center">
+      <tr>
+        <td><button id="start-button" class="button">Start</button></td>
+        <td><button id="clear-button" class="button">Clear</button></td>
+      </tr>
+      <tr>
+        <td>Initial time:</td>
+        <td id="start">0 s</td>
+      </tr>
+      <tr>
+        <td>Optimized time:</td>
+        <td id="end">0 s</td>
+      </tr>
+    </table>
+    
+  </div>
+	<div id="map"></div>
+</body>
+</html

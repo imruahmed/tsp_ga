@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#controls {
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+#map {
+  height: 100%;
+  width: 75%;
+  float: right;
+}
+
+.button {
+	width: 120px;
+  height: 32px;
+}
